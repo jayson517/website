@@ -1,0 +1,222 @@
+body {
+	background-color: #ececec;
+}
+
+/**
+ * ================================= Navigation ===============================
+ */
+
+.navbar {
+	padding-top: 20px;
+	height: 100px;
+	background: rgb(0,53,122);
+background: linear-gradient(110deg, rgba(0,53,122,1) 0%, rgba(41,95,180,1) 50%, rgba(1,39,99,1) 100%);
+}
+
+.nav-title h4 {
+	color: yellow;
+	font-family: sans-serif;
+}
+
+.nav-title p:nth-child(1) {
+	font-size: 20px;
+	color: #ececec;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.nav-title p:nth-child(2) {
+	font-size: 30px;
+	color: #edec8a;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav-title p:nth-child(3) {
+	color: #ececec;
+	padding: 0 0 15px 0;
+	margin: 0px;
+}
+
+.nav-mainLogo {
+	margin: 0 0 10px 30px;
+	width: 90px;
+}
+
+.hr-nav {
+	padding: 0;
+	margin: 0;
+	height: 15px;
+	background-color: #ececec;
+}
+
+/**
+ * =========================== Navigation Left ==========================
+ */
+
+.cont-navLeft {
+	position: fixed;
+	width: 250px;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.cont-navLeft ul li {
+	font-size: 14px;
+	background: rgb(0,53,122);
+background: linear-gradient(52deg, rgba(0,53,122,1) 0%, rgba(47,97,177,1) 100%);
+}
+
+.cont-navLeft ul li a {
+	color: #ececec;
+	text-decoration: none;
+}
+
+/**
+ * ======================== Main =======================
+ */
+
+.cont-car {
+	width: 600px;
+	/*height: 200px;*/
+}
+
+.cont-main-p p{
+	font-size: 20px;
+	font-weight: #151c26;
+	color: black;
+}
+
+.cont-main-p div p {
+	font-size: 14px;
+	font-weight: #151c26;
+	color: black;
+}
+
+.carousel-item img {
+	width: 600px;
+	height: 300px;
+}
+
+.cont-navLeft ul li a:hover {
+	color: yellow;
+}
+
+.cont-main {
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
+/**
+ * ======================== Requirements ==========================
+ */
+
+
+.cont-req p:nth-child(1) {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.cont-req .pv1 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.cont-req .pv2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.cont-req table {
+	border: 2px solid black;
+	width: 600px;
+}
+
+.cont-req table tr, td {
+	border: 2px solid black;
+}
+
+.cont-req table td {
+	padding: 10px 20px 10px 10px;
+}
+
+/**
+ * ============================= Announcements ==============================
+ */
+
+.cont-announcements p {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.cont-announcements-data p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.cont-announcements-data p:nth-child(1) {
+	font-size: 18px;
+	color: red;
+}
+
+.cont-announcements-data p:nth-child(2) {
+	font-size: 12px;
+}
+
+.cont-announcements-data p:nth-child(3) {
+	padding-top: 20px;
+	font-size: 16px;
+}
+
+/**
+ * =================================== Installers ===========================
+ */
+
+.p-m-installers,
+.p-m-updates {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+}
+
+.p-updates {
+	color: black;
+	font-size: 16px;
+}
+
+
+#imgDownload {
+	width: 180px;
+}
+
+
+/**
+ * =================================== v2 ===============================
+ */
+
+.cont-v2 p:nth-child(1){
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.cont-v2 img {
+	width: 600px;
+}
+
+
+/**
+ * =============================== Footer ================================
+ */
+
+footer {
+	height: 30px;
+	background: rgb(1,24,40);
+	background: linear-gradient(66deg, rgba(1,24,40,1) 0%, rgba(27,43,56,1) 100%);
+}
+
+footer p {
+	color: #ececec;
+	text-align: center;
+}
